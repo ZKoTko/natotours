@@ -1,0 +1,432 @@
+/*Global*/
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #F6FAFD;
+}
+li {
+    list-style: none;
+}
+main {
+    margin-top: 3%;
+}
+
+
+/*Navbar*/
+.navbar {
+    padding-left: 200px;
+    padding-right: 200px;
+    box-shadow: 0 2px 2px rgba(72,79,88,.08);
+    background-color: #fff !important;
+}
+
+.nav-link {
+    color: #000;
+    transition: all .2s linear;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #A5D364 !important;
+}
+.nav-telephone {
+    display: flex !important;
+    align-items: center;
+}
+.nav-telephone img {
+    margin-right: 8px;
+    margin-bottom: 3px;
+}
+.flag-img {
+    width: 30px;
+    height: 20px;
+    border: 1px solid #333;
+    margin-bottom: 4px;
+    margin-left: 4px;
+}
+.flag2 {
+    margin: 0;
+    font-weight: bold;
+}
+
+/*Slider*/
+
+.carousel-inner, 
+.carousel-item, 
+.carousel-control-prev,
+.carousel-control-next {
+    height: 400px;
+}
+
+.carousel-item {
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.carousel-text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 4rem; 
+}
+
+
+/*Category*/
+.category-wrapper {
+    width: 100%;
+
+
+}
+.category-btn {
+    border-right: 0;
+    height: 150px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.category-btn__text:hover {
+    border: #A5D364 1px solid;
+    box-shadow: 0 0 16px rgba(0,0,0,.15);
+}
+.category-btn__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 15px;
+    border: 1px solid #E2E6EA;
+    transition: all .2s linear;
+    border-radius: 12px;
+    color: #A5D364;
+    box-shadow: 0 0 16px rgba(0,0,0,.08);
+}
+.category-btn__text h4 {
+    font-size: 2.5rem !important;
+    font-weight: bold;
+}
+
+
+
+/*Lawyer*/
+.lawyer-text img{
+    width: 100%;
+    max-width: 500px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 6px;
+}
+.lawyer-text b {
+    color: #97c05d;
+}
+.lawyer-text h1 {
+    margin-bottom: 15px;
+}
+
+
+
+/*Tours*/
+.tours-section-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.tours-card {
+    text-decoration: none;
+    color: #000;
+}
+.tours-card__container {
+    box-shadow: 0 0 16px rgba(0,0,0,.08);
+    border-radius: 6px;
+}
+.tours-card__img{
+    width: 100%;
+    height: 280px;
+    background-position: center !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.tours-card__text {
+    padding: 15px;
+}
+.tours-card__title {
+    font-size: 22px;
+}
+.tours-card__subtitle {
+    color: #858E9C;
+}
+.tours-card__button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #A5D364;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    margin-top: 25px;
+    padding: 3px 15px;
+    box-shadow: 0 0 16px rgba(0,0,0,.08);
+}
+
+
+/*Single-tour*/
+.single-tour__text h1{
+    margin-bottom: 22px;
+}
+.single-tour__text b {
+    color: #A5D364;
+}
+.single-tour__text li{
+    list-style: circle !important;
+}
+
+/*Flats*/
+.flats-section-title {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.flats-card {
+    text-decoration: none;
+    color: #000;
+}
+.flats-card__container {
+    box-shadow: 0 0 16px rgba(0,0,0,.08);
+    border-radius: 6px;
+}
+.flats-card__img{
+    width: 100%;
+    height: 280px;
+    background-position: center !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.flats-card__text {
+    padding: 15px;
+}
+.flats-card__title {
+    font-size: 22px;
+}
+.flats-card__subtitle {
+    color: #858E9C;
+}
+.flats-card__button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #A5D364;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    margin-top: 25px;
+    padding: 3px 15px;
+    box-shadow: 0 0 16px rgba(0,0,0,.08);
+}
+
+
+/*Single-flats*/
+.single-flats__text h1{
+    margin-bottom: 22px;
+}
+.single-flats__text b {
+    color: #A5D364;
+}
+.single-flats__text li{
+    list-style: circle !important;
+}
+
+/*Contacts*/
+.contacts {
+    margin-bottom: 30px;
+}
+.contacts-text {
+    text-align: center;
+}
+.contacts-mobile {
+    margin: 30px 0;
+}
+.contacts-mobile a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    font-size: 22px;
+}
+.contacts-socials a {
+    margin: 0 16px;
+}
+
+
+@media only screen and (max-width: 420px) {
+    /*Global*/
+    main {
+        margin-top: 6%;
+    }
+    /*Navbar*/
+    .navbar {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .navbar-brand {
+        font-size: 12px;
+    }
+    .nav-telephone__text {
+        font-size: 12px;
+    }
+    /*Slider*/
+    .carousel-text {
+        font-size: 1rem;
+    }
+    .carousel-inner, 
+    .carousel-item, 
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 300px;
+    }
+    /*Lawyer*/
+    .lawyer-text img{
+        margin-bottom: 15px;
+    }
+}
+
+
+@media only screen and (min-width: 420px) {
+    /*Navbar*/
+    .navbar {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .navbar-brand {
+        font-size: 14px;
+    }
+    .nav-telephone__text {
+        font-size: 14px;
+    }
+    /*Slider*/
+    .carousel-text {
+        font-size: 1rem;
+    }
+    .carousel-inner, 
+    .carousel-item, 
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 300px;
+    }
+    /*Lawyer*/
+    .lawyer-text img{
+        margin-bottom: 15px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    /*Navbar*/
+    .navbar {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .navbar-brand {
+        font-size: 16px;
+    }
+    .nav-telephone__text {
+        font-size: 16px;
+    }
+    /*Slider*/
+    .carousel-text {
+        font-size: 1rem;
+    }
+    .carousel-inner, 
+    .carousel-item, 
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 300px;
+    }
+    /*Lawyer*/
+    .lawyer-text img{
+        margin-bottom: 5px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    /*Navbar*/
+    .navbar {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    /*Slider*/
+    .carousel-text {
+        font-size: 1rem;
+    }
+    .carousel-inner, 
+    .carousel-item, 
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 350px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    /*Navbar*/
+    .navbar {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    /*Slider*/
+    .carousel-text {
+        font-size: 1.5rem;
+    }
+    .carousel-inner, 
+    .carousel-item, 
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 350px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    /*Navbar*/
+    .navbar {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    /*Slider*/
+    .carousel-text {
+        font-size: 2rem;
+    }
+    .carousel-inner, 
+    .carousel-item, 
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 400px;
+    }
+}
+
+
+@media only screen and (min-width: 1600px) {
+    /*Navbar*/
+    .navbar {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    /*Slider*/
+    .carousel-text {
+        font-size: 3.5rem;
+    }
+    .carousel-inner, 
+    .carousel-item, 
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 400px;
+    }
+}
