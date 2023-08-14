@@ -295,6 +295,10 @@ main {
     .lawyer-text img{
         margin-bottom: 15px;
     }
+    /*Contacts*/
+    .contacts {
+        margin-top: 20% !important;
+    }
 }
 
 
@@ -323,6 +327,10 @@ main {
     /*Lawyer*/
     .lawyer-text img{
         margin-bottom: 15px;
+    }
+    /*Contacts*/
+    .contacts {
+        margin-top: 5% !important;
     }
 }
 
